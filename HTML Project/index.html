@@ -1,0 +1,72 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pharmacy Stock Manager</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1><b><u>Pharmacy Stock Manager</u></b></h1>
+
+    <h2>Add Medicine:</h2>
+
+    <center>
+        <form id="medicineForm">
+
+        <label>Medicine Name:</label>
+        <input type="text" id="name" required>
+
+        <label>Medicine Type:</label>
+        <select id="type" required>
+            <option value="">Select Type</option>
+            <option>Tablet</option>
+            <option>Capsule</option>
+            <option>Syrup</option>
+            <option>Injection</option>
+            <option>Other</option>
+        </select>
+
+        <label>Strength (mg):</label>
+        <input type="number" id="mg">
+
+        <label>Quantity:</label>
+        <input type="number" id="quantity" required>
+
+        <label>Date Received:</label>
+        <input type="date" id="received" required>
+
+        <label>Expiry Date:</label>
+        <input type="date" id="expiry">
+
+        <label>OR Shelf Life (Months):</label>
+        <input type="number" id="months">
+
+        <button type="submit">Add Medicine</button>
+
+        </form>
+    </center>
+
+    <p id="message"></p>
+
+    <h2>Medicine Stock:</h2>
+
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Type</th>
+            <th>MG</th>
+            <th>Quantity</th>
+            <th>Received</th>
+            <th>Expiry</th>
+            <th>Status</th>
+        </tr>
+
+        <tbody id="stockList"></tbody>
+    </table>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

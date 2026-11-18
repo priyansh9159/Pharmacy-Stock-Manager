@@ -1,0 +1,57 @@
+
+body {
+    font-family: Arial;
+    background-color: #A5A79B;
+    margin: 25px;
+}
+
+h1 {
+    font-size: 40px;
+    text-align: center;
+    color: #590907;
+    font-family: Serif;
+}
+
+H2 {
+    font-size: 30px;
+    color: #590907;
+    font-family: Serif;
+}
+
+form {
+    background-color: BEIGE;
+    padding: 15px;
+    width: 350px;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input, select {
+    padding: 8px;
+    width: 90%;
+}
+
+button {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: blue;
+    color: white;
+}
+
+table {
+    width: 100%;
+    background-color: white;
+    margin-top: 15px;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+}
+
+th {
+    background-color: lightgrey;
+}
